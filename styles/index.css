@@ -1,0 +1,32 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+/* static styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    max-height: max-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    color: inherit;
+}
